@@ -65,7 +65,7 @@ main .slide-section, main section.wella, main section.del, main section.q-pharm,
   color: white;
   position: relative;
   z-index: 1;
-  background: url(/images/background-images/main0.jpeg);
+  background: url(./images/background-images/main0.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -92,22 +92,22 @@ main .slide-section p, main section.wella p, main section.del p, main section.q-
   margin-bottom: 30px;
 }
 main section.bp {
-  background: url(/images/background-images/main1.jpeg);
+  background: url(./images/background-images/main1.jpeg);
 }
 main section.mmr {
-  background: url(/images/background-images/main2.jpeg);
+  background: url(./images/background-images/main2.jpeg);
 }
 main section.hpv {
-  background: url(/images/background-images/main4.jpeg);
+  background: url(./images/background-images/main4.jpeg);
 }
 main section.q-pharm {
-  background: url(/images/background-images/main6.jpeg);
+  background: url(./images/background-images/main6.jpeg);
 }
 main section.del {
-  background: url(/images/background-images/main5.jpeg);
+  background: url(./images/background-images/main5.jpeg);
 }
 main section.wella {
-  background: url(/images/background-images/two-phones.svg);
+  background: url(./images/background-images/two-phones.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -272,7 +272,7 @@ section.info {
   padding-bottom: 28px;
   position: relative;
   z-index: 1;
-  background: url(/images/background-images/logo.jpeg);
+  background: url(./images/background-images/logo.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -335,10 +335,9 @@ footer h2 {
 }
 footer a {
   display: inline-block;
-  color: #0063a5;
+  color: #91c95d;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 100;
   margin-bottom: 24px;
 }
 footer i {

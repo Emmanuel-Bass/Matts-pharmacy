@@ -76,7 +76,7 @@ main {
         color: white;
         position: relative;
         z-index: 1;
-        background: url(/images/background-images/main0.jpeg);
+        background: url(./images/background-images/main0.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         ::before {
@@ -105,32 +105,32 @@ main {
 
     section.bp {
         @extend .slide-section;
-        background: url(/images/background-images/main1.jpeg); 
+        background: url(./images/background-images/main1.jpeg); 
     }
 
     section.mmr {
         @extend .slide-section;
-        background: url(/images/background-images/main2.jpeg);
+        background: url(./images/background-images/main2.jpeg);
     }
 
     section.hpv {
         @extend .slide-section;
-        background: url(/images/background-images/main4.jpeg);
+        background: url(./images/background-images/main4.jpeg);
     }
 
     section.q-pharm {
         @extend .slide-section;
-        background: url(/images/background-images/main6.jpeg);
+        background: url(./images/background-images/main6.jpeg);
     }
 
     section.del {
         @extend .slide-section;
-        background: url(/images/background-images/main5.jpeg);
+        background: url(./images/background-images/main5.jpeg);
     }
 
     section.wella {
         @extend .slide-section;
-        background: url(/images/background-images/two-phones.svg);
+        background: url(./images/background-images/two-phones.svg);
         background-repeat: no-repeat;
         background-size: cover;
         }
@@ -313,7 +313,7 @@ section.info {
     padding-bottom: 28px;
     position: relative;
     z-index: 1;
-    background: url(/images/background-images/logo.jpeg);
+    background: url(./images/background-images/logo.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     ::before {
@@ -377,10 +377,9 @@ footer {
     }
     a {
         display: inline-block;
-        color: $myColor2;
+        color: $myColor1;
         text-decoration: none;
         font-size: $font3;
-        font-weight: 100;
         margin-bottom: 24px;
     }
     i{
