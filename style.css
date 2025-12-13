@@ -297,7 +297,8 @@ section.info section .number {
   margin-top: 24px;
 }
 section.info p {
-  font-size: 22px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .digit-container {
