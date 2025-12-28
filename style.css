@@ -9,10 +9,13 @@ body {
 }
 
 header {
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 10px;
   z-index: 3;
   background: white;
+  max-width: 95%;
+  justify-self: center;
+  border-radius: 20px;
 }
 header nav {
   max-width: 100%;
@@ -59,7 +62,7 @@ main .slider {
 main .slide-section, main section.wella, main section.del, main section.q-pharm, main section.hpv, main section.mmr, main section.bp {
   width: 100vw;
   max-width: 100vw;
-  padding-top: 150px;
+  padding-top: 250px;
   padding-bottom: 150px;
   flex-shrink: 0;
   color: white;
